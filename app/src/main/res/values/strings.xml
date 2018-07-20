@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ECO WIDGET</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_main">Garbage Reminder</string>
+    <string name="res">Avui no s\'ha de treure res.</string>
+    <string name="rebuig">REBUIG</string>
+    <string name="paper">PAPER</string>
+    <string name="vidre">VIDRE</string>
+    <string name="plastic">ENVASOS</string>
+    <string name="organic">ORGANIC</string>
+    <string name="papervidre">PAPER Y VIDRE</string>
+    <string name="monday">Dilluns</string>
+    <string name="tuesday">Dimarts</string>
+    <string name="wednesday">Dimecres</string>
+    <string name="thursday">Dijous</string>
+    <string name="friday">Divendres</string>
+    <string name="saturday">Disabte</string>
+    <string name="sunday">Diumenge</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TrashReminder</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="res">Avui no s\'ha de treure res.</string>
+    <string name="rebuig">REBUIG</string>
+    <string name="paper">PAPER</string>
+    <string name="vidre">VIDRE</string>
+    <string name="plastic">ENVASOS</string>
+    <string name="organic">ORGANIC</string>
+
+</resources>

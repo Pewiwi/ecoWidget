@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\TF4\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\Projects\GarbageReminder\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_3e2c73fdcc98f89c631f6733290262ef27b33108\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Projects\GarbageReminder\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="D:\Projects\GarbageReminder\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.0_7452cccd02d936aebe57be7418c9c1d2f42fecd7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Projects\GarbageReminder\ParseStarterProject\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4774605f86847f2ac16ca5e5fa14c62c706c78d9">
+        <dex dex="D:\Projects\GarbageReminder\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_80553b2e5ed0990cdde35d31c52a41e8e7f4b086\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Projects\GarbageReminder\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\Projects\GarbageReminder\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_4a8037571ffc7f7fd53f47eb938ff8c83819b5b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Projects\GarbageReminder\ParseStarterProject\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d844c532f135bb84c851a24d688b563ed07f12e6">
+        <dex dex="D:\Projects\GarbageReminder\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d83616c12241d8d8385870d99dcef4328bec8d7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TF4\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.0\58a7d54b6a4f28be11f0cecec93097eddf473e6f\parse-android-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="D:\Projects\GarbageReminder\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\parse-android-1.13.0_400ac64be2709106ae363293a56ea2f53ce98565\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TF4\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\Projects\GarbageReminder\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.0_9e484006ce64eff3681a58fbfdf2bf562d2efa60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Projects\GarbageReminder\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\Projects\GarbageReminder\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.0_5b8be5960bd27fbb8aab267cf3cd1b9fc8c483c7\classes.dex" />
+    </item>
+
+</items>

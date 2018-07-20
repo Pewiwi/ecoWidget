@@ -1,0 +1,85 @@
+package com.twinforce.trashreminder;
+
+import android.content.IntentSender;
+import android.location.Location;
+import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
+import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener;
+import com.google.android.gms.location.LocationListener;
+import com.google.android.gms.location.LocationRequest;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.maps.GoogleMap;
+
+public class MainActivity extends AppCompatActivity {
+    AndroidLocation location;
+
+    Button bCheckLocation;
+    TextView tvLocations;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        /*Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });*/
+
+        bCheckLocation = (Button) findViewById(R.id.bCheckLocation);
+        bCheckLocation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onCheckButtonPressed();
+            }
+        });
+        tvLocations = (TextView) findViewById(R.id.tvLocations);
+
+
+        location = new AndroidLocation(this);
+    }
+String showText = "";
+    private void onCheckButtonPressed(){
+        location.show();
+        showText += location.getCurrentLatitude()+","+location.getCurrentLongitude()+"\n";
+        tvLocations.setText(showText);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        //Now lets connect to the API
+        location.connect();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.v(this.getClass().getSimpleName(), "onPause()");
+
+        //Disconnect from API onPause()
+        location.disconnect();
+
+
+    }
+
+
+}

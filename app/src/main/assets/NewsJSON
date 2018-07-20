@@ -1,0 +1,27 @@
+
+   [
+    {"title":"2x1 Can Joan",
+        "subTitle":"Aquesta setmana 2x1 en sabates a Can joan.",
+        "content":"Hodor hodor HODOR! Hodor hodor, hodor. Hodor hodor?! Hodor hodor - hodor, hodor. Hodor hodor - hodor hodor hodor? Hodor, hodor hodor. Hodor. Hodor, hodor. Hodor. Hodor, hodor; hodor HODOR hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor... Hodor hodor hodor hodor! Hodor, HODOR hodor, hodor hodor hodor. Hodor.",
+        "link":"",
+        "date":"01/01/2017",
+        "endDate":"15/01/2017",
+        "type":"sale",
+        "location":"Porreres"},
+    {"title":"Nou Camp a Porreres",
+          "subTitle":"Queda ignaugurat el nou camp de futbol al poble de Porreres.",
+          "content":"Hodor hodor HODOR! Hodor hodor, hodor. Hodor hodor?! Hodor hodor - hodor, hodor. Hodor hodor - hodor hodor hodor? Hodor, hodor hodor. Hodor. Hodor, hodor. Hodor. Hodor, hodor; hodor HODOR hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor... Hodor hodor hodor hodor! Hodor, HODOR hodor, hodor hodor hodor. Hodor.",
+          "link":"www.porreres.cat",
+          "date":"01/01/2017",
+          "endDate":"15/01/2017",
+          "type":"sale",
+          "location":"Porreres"},
+    {"title":"Una noticia més",
+          "subTitle":"Aquesta es una noticia de prova.",
+          "content":"Hodor hodor HODOR! Hodor hodor, hodor. Hodor hodor?! Hodor hodor - hodor, hodor. Hodor hodor - hodor hodor hodor? Hodor, hodor hodor. Hodor. Hodor, hodor. Hodor. Hodor, hodor; hodor HODOR hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor... Hodor hodor hodor hodor! Hodor, HODOR hodor, hodor hodor hodor. Hodor.",
+          "link":"www.prova.cat",
+          "date":"01/01/2017",
+          "endDate":"15/01/2017",
+          "type":"sale",
+          "location":"Porreres"}
+  ]

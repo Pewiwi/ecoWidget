@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="organic">#A99767</color>
+    <color name="vidre">#41945C</color>
+    <color name="res">#695A71</color>
+    <color name="rebuig">#989898</color>
+    <color name="plastic">#dfdd86</color>
+    <color name="paper">#4d81e6</color>
+</resources>
